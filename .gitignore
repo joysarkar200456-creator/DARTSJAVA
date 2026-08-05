@@ -1,0 +1,37 @@
+# --- Compiled output ---
+out/
+*.class
+
+# --- H2 database files (never commit real/local data) ---
+*.mv.db
+*.trace.db
+*.lock.db
+
+# --- Logs ---
+*.log
+darts_chat.log
+
+# --- IDE / editor ---
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- TLS keystore/certs (generate locally, never commit private keys) ---
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# claude
+CLAUDE.md
+PROGRESS_LOG.md
+# --- Manual dependency jars (document how to fetch instead of committing binaries) ---
+# Uncomment if lib/ jars should be fetched via a setup script rather than committed:
+# lib/*.jar
